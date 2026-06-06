@@ -159,6 +159,7 @@
               </div>
               <div class="concert-info">
                 <p class="concert-city">Dillingen Saar</p>
+                <span class="concert-status">Vergangen</span>
                 <h4>Stadthalle Dillingen Saar</h4>
                 <p>Konzerttermin am Abend.</p>
               </div>
@@ -172,6 +173,7 @@
               </div>
               <div class="concert-info">
                 <p class="concert-city">Luxemburg</p>
+                <span class="concert-status">Vergangen</span>
                 <h4>Philharmonie Luxemburg, Grand Auditorium</h4>
                 <p>Konzerttermin am Abend.</p>
               </div>
@@ -185,6 +187,7 @@
               </div>
               <div class="concert-info">
                 <p class="concert-city">Saarbrücken</p>
+                <span class="concert-status">Vergangen</span>
                 <h4>St. Michael Kirche Saarbrücken</h4>
                 <p>Konzerttermin am späten Nachmittag.</p>
               </div>
@@ -198,6 +201,7 @@
               </div>
               <div class="concert-info">
                 <p class="concert-city">Luxemburg</p>
+                <span class="concert-status">Vergangen</span>
                 <h4>Philharmonie Luxemburg, Grand Auditorium</h4>
                 <p>Konzerttermin am Abend.</p>
               </div>
@@ -211,6 +215,7 @@
               </div>
               <div class="concert-info">
                 <p class="concert-city">Saarbrücken</p>
+                <span class="concert-status">Vergangen</span>
                 <h4>Ludwigskirche Saarbrücken</h4>
                 <p>Konzerttermin am Abend.</p>
               </div>
@@ -224,6 +229,7 @@
               </div>
               <div class="concert-info">
                 <p class="concert-city">Nalbach</p>
+                <span class="concert-status">Vergangen</span>
                 <h4>Kath. Kirche Peter und Paul in Nalbach</h4>
                 <p>Konzerttermin am Abend.</p>
               </div>
@@ -297,14 +303,15 @@
           </label>
           <button class="button primary" type="submit" data-i18n="form.submit">Diese Nachricht senden</button>
           <p class="form-status" role="status" aria-live="polite"></p>
-          <p class="form-note" data-i18n="form.note">
-            Hinweis: Ihre Angaben werden zum Versand dieser Nachricht verarbeitet und nicht dauerhaft auf dieser Website gespeichert.
+          <p class="form-note">
+            <span data-i18n="form.note">Mit dem Absenden werden Ihre Angaben zur Bearbeitung Ihrer Anfrage verarbeitet.</span>
+            <a href="#datenschutz" data-i18n="form.privacyLink">Weitere Informationen finden Sie in der Datenschutzerklärung.</a>
           </p>
         </form>
       </section>
 
       <section id="impressum" class="legal section-band">
-        <button class="legal-close" type="button" aria-label="Schließen" data-close-legal>Schließen</button>
+        <button class="legal-close" type="button" aria-label="Schließen" data-close-legal>&times;</button>
         <div class="legal-grid">
           <div>
             <p class="section-kicker">Impressum</p>
@@ -321,16 +328,27 @@
               Deutschland
             </p>
             <p>
+              Tätigkeitsbereich:<br />
+              Violinistin, Konzertauftritte, Kammermusik, kulturelle Projekte und Geigenunterricht.
+            </p>
+            <p>
               E-Mail: <a href="mailto:kontakt@siyaosong.com">kontakt@siyaosong.com</a>
+            </p>
+            <p>
+              Eine Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz besteht nicht.
             </p>
             <p>
               Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:<br />
               Siyao Song, Anschrift wie oben.
             </p>
+            <h3>Verbraucherstreitbeilegung</h3>
+            <p>
+              Siyao Song ist weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+            </p>
             <h3>Urheberrecht und Bildnachweise</h3>
             <p>
               Die Inhalte und Bilder dieser Website sind urheberrechtlich geschützt. Eine Nutzung, Vervielfältigung oder Weitergabe ist nur mit vorheriger Zustimmung gestattet.
-              Bildnachweise: private Aufnahmen von Siyao Song, mit KI-gestützten Werkzeugen nachbearbeitet.
+              Bildnachweise: private Aufnahmen von Siyao Song; die Bildrechte liegen bei Siyao Song. Einzelne Bilder wurden mit KI-gestützten Werkzeugen nachbearbeitet.
             </p>
             <h3>Haftung für externe Links</h3>
             <p>
@@ -341,7 +359,7 @@
       </section>
 
       <section id="datenschutz" class="legal">
-        <button class="legal-close" type="button" aria-label="Schließen" data-close-legal>Schließen</button>
+        <button class="legal-close" type="button" aria-label="Schließen" data-close-legal>&times;</button>
         <div class="legal-grid">
           <div>
             <p class="section-kicker">Datenschutzerklärung</p>
@@ -349,7 +367,7 @@
           </div>
           <div class="legal-copy">
             <p class="legal-note">
-              Stand: Juni 2026. Diese Datenschutzerklärung beschreibt die aktuelle statische Website ohne Analytics, Newsletter, Online-Buchung oder Zahlungsfunktion.
+              Stand: Juni 2026. Diese Datenschutzerklärung beschreibt die aktuelle statische Website ohne Newsletter, Online-Buchung oder Zahlungsfunktion.
             </p>
             <p>
               Diese Datenschutzerklärung informiert über die Verarbeitung personenbezogener Daten beim Besuch dieser Website und bei der Kontaktaufnahme.
@@ -372,6 +390,16 @@
             <p>
               Weitere Informationen: <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noreferrer">Cloudflare Privacy Policy</a> und <a href="https://www.cloudflare.com/cloudflare-customer-dpa/" target="_blank" rel="noreferrer">Cloudflare Data Processing Addendum</a>.
             </p>
+            <h3>Cloudflare-Statistiken</h3>
+            <p>
+              Im Cloudflare-Konto können technische und aggregierte Statistiken zur Nutzung dieser Website angezeigt werden, etwa Anzahl der Anfragen, Besuche, übertragene Datenmengen, Cache-Status, Fehler- und Sicherheitsereignisse. Diese Auswertungen dienen der Sicherheit, Stabilität, Fehleranalyse und technischen Optimierung der Website. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
+            </p>
+            <p>
+              Soweit Cloudflare hierfür Zugriffsdaten verarbeitet, erfolgt dies im Rahmen der Bereitstellung und Absicherung der Website. Eine eigene Profilbildung zu Werbezwecken, ein Newsletter-Tracking oder eine Weitergabe der Formulardaten an Cloudflare zu Marketingzwecken findet durch diese Website nicht statt.
+            </p>
+            <p>
+              Soweit lediglich technische Cloudflare-Dashboard-Statistiken auf Grundlage der Server- bzw. Edge-Zugriffe angezeigt werden, erfolgt keine eigene Marketing-Analyse durch diese Website. Sollte Cloudflare Web Analytics bzw. ein RUM-Beacon aktiviert werden, können zusätzlich technische Performance-Daten im Browser erhoben und an Cloudflare übermittelt werden. Nach Angaben von Cloudflare werden dabei keine Cookies gesetzt und keine personenbezogenen Besucherprofile erstellt.
+            </p>
             <h3>Kontaktaufnahme per E-Mail und Kontaktformular</h3>
             <p>
               Wenn Sie per E-Mail oder über das Kontaktformular Kontakt aufnehmen, werden die von Ihnen übermittelten Angaben verarbeitet, um Ihre Anfrage zu beantworten und eine mögliche Zusammenarbeit, Unterrichtsanfrage oder Konzertanfrage vorzubereiten.
@@ -381,19 +409,19 @@
               Das Kontaktformular sendet Ihre Nachricht an <a href="mailto:kontakt@siyaosong.com">kontakt@siyaosong.com</a>. Die Website speichert die eingegebenen Formulardaten nicht dauerhaft in einer eigenen Datenbank.
             </p>
             <p>
-              Für den technischen E-Mail-Versand kann der Dienst Resend, 2261 Market Street #5039, San Francisco, CA 94114, USA, eingesetzt werden. Dabei werden die für den Versand notwendigen Angaben, insbesondere Name, E-Mail-Adresse, Nachricht, Zeitpunkt und technische Versanddaten, verarbeitet. Weitere Informationen: <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noreferrer">Resend Privacy Policy</a>.
+              Für den technischen Versand des Kontaktformulars wird Resend, Plus Five Five, Inc., 2261 Market Street #5039, San Francisco, CA 94114, USA, als E-Mail-Dienstleister eingesetzt. Resend verarbeitet die hierfür erforderlichen Daten als Auftragsverarbeiter. Grundlage ist Art. 6 Abs. 1 lit. b DSGVO bzw. Art. 6 Abs. 1 lit. f DSGVO. Für Übermittlungen in die USA stützt sich Resend nach eigenen Angaben auf ein Data Processing Addendum und Standardvertragsklauseln. Ein Öffnungs- oder Linktracking für diese Kontaktformular-E-Mails wird nicht eingesetzt. Weitere Informationen: <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noreferrer">Resend Privacy Policy</a> und <a href="https://resend.com/legal/dpa" target="_blank" rel="noreferrer">Resend Data Processing Addendum</a>.
             </p>
             <h3>Lokale Speicherung der Spracheinstellung</h3>
             <p>
-              Diese Website speichert die von Ihnen gewählte Sprache lokal in Ihrem Browser unter dem Schlüssel <code>site-language</code>. Diese Speicherung dient ausschließlich dazu, Ihre Sprachwahl beim nächsten Besuch wiederherzustellen. Es findet kein Tracking statt.
+              Diese Website speichert die von Ihnen gewählte Sprache lokal in Ihrem Browser unter dem Schlüssel <code>site-language</code>. Diese Speicherung dient ausschließlich dazu, Ihre Sprachwahl beim nächsten Besuch wiederherzustellen. Es findet kein Tracking statt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; das berechtigte Interesse liegt in einer nutzerfreundlichen mehrsprachigen Darstellung der Website.
             </p>
-            <h3>Keine Analyse- oder Trackingdienste</h3>
+            <h3>Keine Marketing- oder Trackingdienste</h3>
             <p>
-              Diese Website verwendet derzeit keine Analyse- oder Trackingdienste, keine Newsletter-Software, keine eingebetteten Social-Media-Plugins und keine nicht notwendigen Cookies.
+              Diese Website verwendet derzeit keine Marketing-Analyse wie Google Analytics, keine Newsletter-Software, keine eingebetteten Social-Media-Plugins und keine nicht notwendigen Cookies.
             </p>
             <h3>Speicherdauer</h3>
             <p>
-              Personenbezogene Daten aus Anfragen werden nur so lange gespeichert, wie dies zur Bearbeitung der Anfrage und möglicher Anschlusskommunikation erforderlich ist, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
+              Anfragen werden grundsätzlich für die Dauer der Bearbeitung und anschließenden Kommunikation gespeichert. Soweit keine gesetzlichen Aufbewahrungspflichten bestehen, werden sie gelöscht, sobald die Anfrage abschließend erledigt ist und keine weitere Kommunikation zu erwarten ist.
             </p>
             <h3>Ihre Rechte</h3>
             <p>

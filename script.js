@@ -13,23 +13,23 @@ const translations = {
     "hero.eyebrow": "Konzert · Unterricht · Ein Leben in Musik",
     "hero.title": "Jeder Mensch<br />braucht Musik.",
     "hero.copy":
-      "Wenn der Alltag uns vorantreibt, schenkt Musik der Zeit wieder Atem. Ein Konzert zu hören oder eine Geigenstunde zu beginnen heißt, sich dem Klang anzuvertrauen und feiner zu fühlen.",
-    "hero.concertCta": "Konzerte erleben",
-    "hero.lessonCta": "Unterricht entdecken",
+      "Wenn der Alltag uns vorantreibt, schenkt Musik der Zeit wieder Atem. Ein Konzert zu hören oder eine Geigenstunde zu beginnen heißt, sich dem Klang anzuvertrauen und die Welt feiner wahrzunehmen.",
+    "hero.concertCta": "Konzerte",
+    "hero.lessonCta": "Unterricht",
     "intro.kicker": "Die Musikerin",
-    "intro.title": "Song Siyao",
+    "intro.title": "Siyao Song",
     "intro.lead":
-      "Geigerin, in China geboren und heute im Saarland zu Hause, aktiv auf europäischen Kammermusik- und Orchesterbühnen.",
+      "Violinistin, in China geboren und heute im Saarland zu Hause, aktiv auf europäischen Kammermusik- und Orchesterbühnen.",
     "intro.bioOne":
       "Sie studierte an der Mittelschule des Chinesischen Konservatoriums für Musik, am Chinesischen Konservatorium für Musik und an der Hochschule für Musik Saar. Zu ihren Lehrern zählen die renommierte Violinpädagogin Prof. Fang Yuan sowie der deutsche Geiger Prof. Hans-Peter Hoffmann.",
     "intro.bioTwo":
       "Sie wurde beim 8. Chinesischen Musikpreis Goldene Glocke im Wettbewerb für Streichquartett ausgezeichnet und wirkte in Konzerten mit der Chinesischen Jugendphilharmonie, dem Orchester des Nationalen Zentrums für Darstellende Künste, dem Sinfonieorchester des Chinesischen Nationalballetts, den Mainzer Virtuosi, dem Kammerorchester der Großregion und dem Europäischen Akademischen Orchester mit.",
     "intro.bioThree":
-      "Als Gründerin des Delux Streichquartetts widmet sie sich langfristig der Kammermusik und dem internationalen Kulturaustausch.",
+      "Als Gründerin des Delux-Streichquartetts widmet sie sich langfristig der Kammermusik und dem internationalen Kulturaustausch.",
     "intro.bioFour":
-      "Derzeit leitet sie den Kulturbereich der Deutsche Musik- und Kunstpädagogen e.V. und verantwortet internationale Kulturprojekte, Konzert- und Kunstveranstaltungen, Nachwuchsförderung, Kooperationen in der Kunstbildung sowie den Aufbau von Plattformen für den deutsch-chinesischen Kulturaustausch.",
+      "Derzeit leitet sie den Kulturbereich der Deutschen Musik- und Kunstpädagogen e.V. und verantwortet internationale Kulturprojekte, Konzert- und Kunstveranstaltungen, Nachwuchsförderung, Kooperationen in der Kunstbildung sowie den Aufbau von Plattformen für den deutsch-chinesischen Kulturaustausch.",
     "concerts.kicker": "Für Zuhörende",
-    "concerts.title": "In ein Konzert eintreten heißt, eine Zeit vom Klang erhellen zu lassen.",
+    "concerts.title": "Ein Konzert zu erleben heißt, eine Zeit vom Klang erhellen zu lassen.",
     "concerts.ask": "Anfragen",
     "concerts.showMore": "Weitere Konzerte anzeigen",
     "concerts.showLess": "Weniger anzeigen",
@@ -50,7 +50,7 @@ const translations = {
     "event.threeCopy": "Violine und Klavier begegnen Mozart, Kreisler und einigen vertrauten Melodien.",
     "event.threeLink": "Karten anfragen",
     "teaching.kicker": "Für Lernende",
-    "teaching.title": "In eine Geigenstunde eintreten heißt, eine Seele von Kunst nähren zu lassen.",
+    "teaching.title": "Eine Geigenstunde zu beginnen heißt, eine innere Stimme durch Kunst wachsen zu lassen.",
     "teaching.copy":
       "Geige lernen bedeutet nicht nur, den richtigen Ton zu finden. Es bedeutet, zuhören, warten und einen musikalischen Satz vollständig aussprechen zu lernen. Für Kinder, Jugendliche und Erwachsene entsteht zwischen Intonation, Rhythmus, Bogenführung und Haltung allmählich eine eigene Stimme.",
     "lesson.one": "Für Kinder: erstes Hören und Neugier wecken",
@@ -67,14 +67,14 @@ const translations = {
     "form.contact": "E-Mail",
     "form.contactPlaceholder": "Ihre E-Mail-Adresse",
     "form.intent": "Ich möchte",
-    "form.optionOne": "Einen warmen, persönlichen Auftritt anfragen",
+    "form.optionOne": "Einen persönlichen Konzertauftritt anfragen",
     "form.optionTwo": "Mit dem Geigenunterricht beginnen",
     "form.optionThree": "Über Zusammenarbeit oder andere Möglichkeiten sprechen",
     "form.message": "Eine Nachricht an die Musikerin",
     "form.messagePlaceholder": "Anlass, Datum oder Lernziel",
     "form.submit": "Diese Nachricht senden",
-    "form.note":
-      "Hinweis: Ihre Angaben werden zum Versand dieser Nachricht verarbeitet und nicht dauerhaft auf dieser Website gespeichert.",
+    "form.note": "Mit dem Absenden werden Ihre Angaben zur Bearbeitung Ihrer Anfrage verarbeitet.",
+    "form.privacyLink": "Weitere Informationen finden Sie in der Datenschutzerklärung.",
     "form.sending": "Ihre Nachricht wird gesendet...",
     "form.success": "Vielen Dank. Ihre Nachricht wurde gesendet.",
     "form.error": "Die Nachricht konnte nicht gesendet werden. Bitte schreiben Sie direkt an kontakt@siyaosong.com.",
@@ -93,11 +93,11 @@ const translations = {
     "hero.eyebrow": "Concert · Teaching · A Life Held By Music",
     "hero.title": "Every life<br />needs music.",
     "hero.copy":
-      "When daily life keeps moving us forward, music gives time its breath again. To hear a concert or begin a violin lesson is to return yourself to sound and to a more delicate way of feeling.",
-    "hero.concertCta": "Enter the Concerts",
-    "hero.lessonCta": "Enter the Studio",
+      "When daily life carries us forward, music gives time its breath again. To hear a concert or begin a violin lesson is to entrust oneself to sound, and to feel the world with greater delicacy.",
+    "hero.concertCta": "Concerts",
+    "hero.lessonCta": "Lessons",
     "intro.kicker": "The Musician",
-    "intro.title": "Song Siyao",
+    "intro.title": "Siyao Song",
     "intro.lead":
       "A violinist born in China and now based in Germany, active on European chamber music and symphonic stages.",
     "intro.bioOne":
@@ -107,7 +107,7 @@ const translations = {
     "intro.bioThree":
       "She founded the Delux String Quartet and has long been devoted to chamber music performance and international cultural exchange.",
     "intro.bioFour":
-      "She currently serves as Head of Culture at Deutsche Musik- und Kunstpädagogen e.V., where she is responsible for international cultural exchange projects, concerts and art events, young artist development, arts education partnerships, and the building of platforms for Sino-German cultural exchange.",
+      "She currently serves as Head of Culture at Deutsche Musik- und Kunstpädagogen e.V., developing international cultural exchange projects, concerts and arts events, young artist initiatives, arts education partnerships, and platforms for Sino-German cultural dialogue.",
     "concerts.kicker": "For Listeners",
     "concerts.title": "Enter a concert, and let a passage of time be illuminated by music.",
     "concerts.ask": "Inquire",
@@ -130,7 +130,7 @@ const translations = {
     "event.threeCopy": "Violin and piano meet Mozart, Kreisler, and a few familiar melodies.",
     "event.threeLink": "Ask for Tickets",
     "teaching.kicker": "For Learners",
-    "teaching.title": "Enter a violin lesson, and let a soul be nourished by art.",
+    "teaching.title": "Enter a violin lesson, and let an inner voice grow through art.",
     "teaching.copy":
       "Learning violin is not only finding the right note. It is learning to listen, to wait, and to complete a musical sentence. For children, teenagers, and adults, intonation, rhythm, bowing, and posture gradually become a voice of one’s own.",
     "lesson.one": "For children: awakening first listening and curiosity",
@@ -153,8 +153,8 @@ const translations = {
     "form.message": "A note for the musician",
     "form.messagePlaceholder": "Occasion, date, or learning goal",
     "form.submit": "Send this note",
-    "form.note":
-      "Note: Your details are processed to send this message and are not permanently stored on this website.",
+    "form.note": "By submitting, your details will be processed to handle your inquiry.",
+    "form.privacyLink": "Further information is available in the privacy policy.",
     "form.sending": "Sending your message...",
     "form.success": "Thank you. Your message has been sent.",
     "form.error": "The message could not be sent. Please write directly to kontakt@siyaosong.com.",
@@ -165,18 +165,18 @@ const translations = {
     metaTitle: "SIYAO SONG | Violinistin | Konzert | Geigenunterricht | Saarland",
     metaDescription:
       "小提琴演奏家与教师个人网站。走近一场音乐会，走进一间课堂，让音乐回到每个人的生活。",
-    "brand.role": "Violinist",
+    "brand.role": "小提琴家",
     "nav.music": "音乐家",
     "nav.concerts": "音乐会",
     "nav.teaching": "课堂",
     "nav.contact": "联系",
-    "hero.eyebrow": "Concert · Teaching · A Life Held By Music",
+    "hero.eyebrow": "音乐会 · 提琴课 · 一生与音乐同行",
     "hero.title": "每个人，<br />都需要音乐。",
     "hero.copy":
-      "当日常被推着向前，音乐让时间重新有了呼吸。来听一场音乐会，或开始一节小提琴课，都是把自己交还给声音，交还给更细腻的感受。",
+      "当日常推着我们向前，音乐让时间重新有了呼吸。来听一场音乐会，或开始一节小提琴课，都是把自己交还给声音，也交还给更细腻的感受。",
     "hero.concertCta": "走进音乐会",
     "hero.lessonCta": "走进课堂",
-    "intro.kicker": "The Musician",
+    "intro.kicker": "音乐家",
     "intro.title": "宋思瑶",
     "intro.lead": "小提琴家，出生于中国，现居德国，活跃于欧洲室内乐与交响乐舞台。",
     "intro.bioOne":
@@ -186,7 +186,7 @@ const translations = {
     "intro.bioThree": "她创立 Delux 弦乐四重奏，长期致力于室内乐演奏及国际文化交流。",
     "intro.bioFour":
       "现任德国音乐艺术教育家协会（Deutsche Musik- und Kunstpädagogen e.V.）文化部负责人，主要负责国际文化交流项目策划、音乐会与艺术活动组织、青年艺术人才培养、艺术教育合作以及中德文化交流平台建设，积极推动音乐教育、艺术实践与跨文化合作的发展。",
-    "concerts.kicker": "For Listeners",
+    "concerts.kicker": "为聆听者",
     "concerts.title": "走进音乐会，让一段时光被音乐照亮。",
     "concerts.ask": "咨询",
     "concerts.showMore": "显示更多音乐会",
@@ -206,7 +206,7 @@ const translations = {
     "event.threeTitle": "弦上花园",
     "event.threeCopy": "以小提琴与钢琴的对话，走过莫扎特、克莱斯勒与几首熟悉的旋律。",
     "event.threeLink": "咨询票务",
-    "teaching.kicker": "For Learners",
+    "teaching.kicker": "为学习者",
     "teaching.title": "走进提琴课，让一颗心灵被艺术滋养。",
     "teaching.copy":
       "学琴从来不只是学会按下正确的音，也是在学习如何倾听、如何等待、如何把一句乐句说完整。课程面向儿童、青少年与成人学习者，在音准、节奏、运弓与姿态之间，慢慢建立属于每个人自己的声音。",
@@ -215,7 +215,7 @@ const translations = {
     "lesson.three": "为成人保留一处与音乐相遇的时间",
     "lesson.four": "为考级、比赛与音乐会准备完整曲目",
     "quote.text": "“人需要音乐，因为心里总有一些地方，只能由声音抵达。”",
-    "contact.kicker": "Begin With Music",
+    "contact.kicker": "从音乐开始",
     "contact.title": "把一段时光，交给音乐",
     "contact.copy":
       "如果你正在筹备一个值得被记住的夜晚，或希望为自己、为孩子开启一段与小提琴相伴的日子，欢迎留下你的想法。一次演出、一节试听课、一段长期学习，都可以从这里开始。",
@@ -229,8 +229,9 @@ const translations = {
     "form.optionThree": "聊聊合作与其他可能",
     "form.message": "留给音乐家的话",
     "form.messagePlaceholder": "活动、日期或学习目标",
-    "form.submit": "送出这一封信",
-    "form.note": "提示：你的信息仅用于发送这封消息，不会被本网站长期保存。",
+    "form.submit": "发送这封信",
+    "form.note": "提交后，你的信息将用于处理这次咨询。",
+    "form.privacyLink": "更多信息请见隐私声明。",
     "form.sending": "正在发送...",
     "form.success": "谢谢，你的消息已经发送。",
     "form.error": "消息暂时无法发送，请直接写信至 kontakt@siyaosong.com。",
