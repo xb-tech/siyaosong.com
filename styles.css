@@ -867,21 +867,44 @@ textarea {
 
 @media (max-width: 620px) {
   .site-header {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
     align-items: flex-start;
-    padding: 18px;
+    gap: 12px;
+    padding: 14px 16px;
   }
 
   .nav-links {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
     justify-content: flex-end;
-    max-width: 190px;
-    gap: 8px 14px;
+    gap: 8px 16px;
+    max-width: none;
+    font-size: 12.5px;
+    line-height: 1.1;
+    text-align: right;
+  }
+
+  .nav-links a {
+    padding: 2px 0;
   }
 
   .header-actions {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     justify-items: end;
-    gap: 8px;
+    gap: 10px;
+    min-width: 0;
+  }
+
+  .language-switcher {
+    order: -1;
+    align-self: flex-end;
+    font-size: 15px;
+    line-height: 1;
+    gap: 7px;
+    white-space: nowrap;
   }
 
   h1 {
@@ -978,6 +1001,31 @@ textarea {
 
   .site-footer {
     display: grid;
+  }
+}
+
+@media (max-width: 380px) {
+  .site-header {
+    padding: 12px 12px;
+    gap: 8px;
+  }
+
+  .brand span {
+    font-size: 24px;
+  }
+
+  .brand small {
+    font-size: 9px;
+  }
+
+  .nav-links {
+    gap: 7px 12px;
+    font-size: 11.5px;
+  }
+
+  .language-switcher {
+    font-size: 13.5px;
+    gap: 5px;
   }
 }
 
