@@ -21,7 +21,7 @@ const translations = {
     "intro.lead":
       "Violinistin, in China geboren und heute im Saarland zu Hause, aktiv auf europäischen Kammermusik- und Orchesterbühnen.",
     "intro.bioOne":
-      "Sie studierte an der Mittelschule des Chinesischen Konservatoriums für Musik, am Chinesischen Konservatorium für Musik und an der Hochschule für Musik Saar. Zu ihren Lehrern zählen die renommierte Violinpädagogin Prof. Fang Yuan sowie der deutsche Geiger Prof. Hans-Peter Hoffmann.",
+      "Sie studierte an der Mittelschule des Chinesischen Konservatoriums für Musik, am Chinesischen Konservatorium für Musik und an der Hochschule für Musik Saar. Zu ihren Lehrern zählen die renommierte Violinpädagogin Prof. Fang Yuan sowie der deutsche Geiger Prof. Hans-Peter Hofmann.",
     "intro.bioTwo":
       "Sie wurde beim 8. Chinesischen Musikpreis Goldene Glocke im Wettbewerb für Streichquartett ausgezeichnet und wirkte in Konzerten mit der Chinesischen Jugendphilharmonie, dem Orchester des Nationalen Zentrums für Darstellende Künste, dem Sinfonieorchester des Chinesischen Nationalballetts, den Mainzer Virtuosi, dem Kammerorchester der Großregion und dem Europäischen Akademischen Orchester mit.",
     "intro.bioThree":
@@ -101,7 +101,7 @@ const translations = {
     "intro.lead":
       "A violinist born in China and now based in Germany, active on European chamber music and symphonic stages.",
     "intro.bioOne":
-      "She studied at the Middle School Affiliated to the China Conservatory of Music, the China Conservatory of Music, and the Hochschule für Musik Saar in Germany. Her teachers include the renowned violin pedagogue Prof. Fang Yuan and German violinist Prof. Hans-Peter Hoffmann.",
+      "She studied at the Middle School Affiliated to the China Conservatory of Music, the China Conservatory of Music, and the Hochschule für Musik Saar in Germany. Her teachers include the renowned violin pedagogue Prof. Fang Yuan and German violinist Prof. Hans-Peter Hofmann.",
     "intro.bioTwo":
       "She received an Excellence Award at the 8th China Music Golden Bell Award String Quartet Competition and has performed with the China Youth Philharmonic Orchestra, the National Centre for the Performing Arts Orchestra, the Symphony Orchestra of the National Ballet of China, Mainzer Virtuosi, Kammerorchester der Großregion, and the European Academic Orchestra.",
     "intro.bioThree":
@@ -180,7 +180,7 @@ const translations = {
     "intro.title": "宋思瑶",
     "intro.lead": "小提琴家，出生于中国，现居德国，活跃于欧洲室内乐与交响乐舞台。",
     "intro.bioOne":
-      "她先后就读于中国音乐学院附属中学、中国音乐学院及德国萨尔布吕肯音乐学院（Hochschule für Musik Saar），师从著名小提琴教育家方元教授及德国小提琴家 Hans-Peter Hoffmann 教授。",
+      "她先后就读于中国音乐学院附属中学、中国音乐学院及德国萨尔布吕肯音乐学院（Hochschule für Musik Saar），师从著名小提琴教育家方元教授及德国小提琴家 Hans-Peter Hofmann 教授。",
     "intro.bioTwo":
       "曾荣获第八届中国音乐金钟奖弦乐四重奏比赛优秀奖，并参与中国青年爱乐乐团、国家大剧院管弦乐团、中央芭蕾舞团交响乐团、Mainzer Virtuosi 室内乐团、Kammerorchester der Großregion（KOG）及 European Academic Orchestra（EAO）等乐团的演出。",
     "intro.bioThree": "她创立 Delux 弦乐四重奏，长期致力于室内乐演奏及国际文化交流。",

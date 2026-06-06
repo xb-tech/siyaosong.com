@@ -136,7 +136,7 @@ a {
   min-height: 100svh;
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.2)),
-    url("1.png") center top / cover;
+    url("1.webp") center top / cover;
   transform: translateY(var(--hero-shift)) scale(1.035);
   transform-origin: center top;
   transition: transform 160ms linear;
