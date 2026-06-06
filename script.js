@@ -4,7 +4,7 @@ const translations = {
   de: {
     metaTitle: "SIYAO SONG | Violinistin | Konzert | Geigenunterricht | Saarland",
     metaDescription:
-      "Persönliche Website einer Geigerin und Pädagogin. Konzerte und Unterricht als zwei Wege in ein Leben mit Musik.",
+      "Geigenunterricht in Saarlouis und im Saarland mit Siyao Song. Persönlicher Violinunterricht für Kinder, Jugendliche und Erwachsene sowie Konzerte und Kammermusik.",
     "brand.role": "Violinistin",
     "nav.music": "Musikerin",
     "nav.concerts": "Konzerte",
@@ -52,10 +52,10 @@ const translations = {
     "teaching.kicker": "Für Lernende",
     "teaching.title": "Eine Geigenstunde zu beginnen heißt, eine innere Stimme durch Kunst wachsen zu lassen.",
     "teaching.copy":
-      "Geige lernen bedeutet nicht nur, den richtigen Ton zu finden. Es bedeutet, zuhören, warten und einen musikalischen Satz vollständig aussprechen zu lernen. Für Kinder, Jugendliche und Erwachsene entsteht zwischen Intonation, Rhythmus, Bogenführung und Haltung allmählich eine eigene Stimme.",
-    "lesson.one": "Für Kinder: erstes Hören und Neugier wecken",
+      "Im Mittelpunkt steht Geigenunterricht im Raum Saarlouis und Saarland: für Kinder, Jugendliche und Erwachsene, vom ersten Ton bis zur bewussten musikalischen Gestaltung. Zwischen Intonation, Rhythmus, Bogenführung und Haltung entsteht Schritt für Schritt eine eigene Stimme.",
+    "lesson.one": "Für Kinder in Saarlouis und Umgebung: erstes Hören und Neugier wecken",
     "lesson.two": "Für Jugendliche: Technik, Fokus und Bühnengefühl formen",
-    "lesson.three": "Für Erwachsene: einen stillen Ort der Begegnung mit Musik bewahren",
+    "lesson.three": "Für Erwachsene: Geige lernen oder wieder beginnen",
     "lesson.four": "Für Prüfungen, Wettbewerbe und Konzerte: Programme sorgfältig vorbereiten",
     "quote.text": "“Der Mensch braucht Musik, weil es Orte im Herzen gibt, die nur Klang erreichen kann.”",
     "contact.kicker": "Mit Musik beginnen",
@@ -84,7 +84,7 @@ const translations = {
   en: {
     metaTitle: "SIYAO SONG | Violinistin | Konzert | Geigenunterricht | Saarland",
     metaDescription:
-      "Personal website of a violinist and educator. Concerts and lessons as two ways into a life held by music.",
+      "Violin lessons in Saarlouis and Saarland with Siyao Song. Personal violin teaching for children, teenagers, and adults, plus concerts and chamber music.",
     "brand.role": "Violinist",
     "nav.music": "Musician",
     "nav.concerts": "Concerts",
@@ -132,10 +132,10 @@ const translations = {
     "teaching.kicker": "For Learners",
     "teaching.title": "Enter a violin lesson, and let an inner voice grow through art.",
     "teaching.copy":
-      "Learning violin is not only finding the right note. It is learning to listen, to wait, and to complete a musical sentence. For children, teenagers, and adults, intonation, rhythm, bowing, and posture gradually become a voice of one’s own.",
-    "lesson.one": "For children: awakening first listening and curiosity",
+      "The teaching is centered on violin lessons in the Saarlouis and Saarland area: for children, teenagers, and adults, from the first sound to conscious musical expression. Intonation, rhythm, bowing, and posture gradually become a voice of one’s own.",
+    "lesson.one": "For children in Saarlouis and nearby: awakening first listening and curiosity",
     "lesson.two": "For teenagers: shaping technique, focus, and stage presence",
-    "lesson.three": "For adults: keeping a quiet place to meet music",
+    "lesson.three": "For adults: beginning violin or returning to music",
     "lesson.four": "For exams, competitions, and concerts: preparing complete programs with care",
     "quote.text": "“We need music because there are places in the heart that only sound can reach.”",
     "contact.kicker": "Begin With Music",
@@ -164,7 +164,7 @@ const translations = {
   zh: {
     metaTitle: "SIYAO SONG | Violinistin | Konzert | Geigenunterricht | Saarland",
     metaDescription:
-      "小提琴演奏家与教师个人网站。走近一场音乐会，走进一间课堂，让音乐回到每个人的生活。",
+      "宋思瑶 Siyao Song，小提琴家，现居德国萨尔兰。以 Saarlouis 为中心提供儿童、青少年与成人小提琴教学，同时介绍音乐会演出与室内乐项目。",
     "brand.role": "小提琴家",
     "nav.music": "音乐家",
     "nav.concerts": "音乐会",
@@ -209,10 +209,10 @@ const translations = {
     "teaching.kicker": "为学习者",
     "teaching.title": "走进提琴课，让一颗心灵被艺术滋养。",
     "teaching.copy":
-      "学琴从来不只是学会按下正确的音，也是在学习如何倾听、如何等待、如何把一句乐句说完整。课程面向儿童、青少年与成人学习者，在音准、节奏、运弓与姿态之间，慢慢建立属于每个人自己的声音。",
-    "lesson.one": "为儿童点亮最初的听觉与好奇",
+      "以 Saarlouis 为中心，面向萨尔兰地区的儿童、青少年与成人开设小提琴课。从第一个声音到更完整的音乐表达，音准、节奏、运弓与身体姿态，会慢慢生长成自己的声音。",
+    "lesson.one": "为 Saarlouis 及周边儿童点亮最初的听觉与好奇",
     "lesson.two": "为青少年打磨技术、专注与舞台感",
-    "lesson.three": "为成人保留一处与音乐相遇的时间",
+    "lesson.three": "为成人开启或重新回到小提琴学习",
     "lesson.four": "为考级、比赛与音乐会准备完整曲目",
     "quote.text": "“人需要音乐，因为心里总有一些地方，只能由声音抵达。”",
     "contact.kicker": "从音乐开始",
