@@ -16,6 +16,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
   background: var(--paper);
   font-family: "Noto Serif SC", serif;
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 .scroll-progress {
@@ -867,43 +869,58 @@ textarea {
 
 @media (max-width: 620px) {
   .site-header {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr);
-    align-items: flex-start;
-    gap: 12px;
-    padding: 14px 16px;
+    display: block;
+    left: 0;
+    right: auto;
+    width: 100vw;
+    max-width: 100vw;
+    min-height: 58svh;
+    padding: 18px 18px 0;
+    overflow: visible;
+  }
+
+  .brand {
+    position: absolute;
+    top: 18px;
+    left: 18px;
   }
 
   .nav-links {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    bottom: 0;
     display: grid;
-    grid-template-columns: repeat(2, max-content);
-    justify-content: flex-end;
-    gap: 8px 16px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: stretch;
+    gap: 0;
     max-width: none;
-    font-size: 12.5px;
+    width: auto;
+    padding: 13px 14px 14px;
+    background: linear-gradient(180deg, rgba(21, 19, 17, 0.18), rgba(21, 19, 17, 0.72));
+    border-top: 1px solid rgba(255, 250, 242, 0.14);
+    font-size: 12px;
     line-height: 1.1;
-    text-align: right;
+    text-align: center;
   }
 
   .nav-links a {
-    padding: 2px 0;
+    min-width: 0;
+    padding: 2px 4px;
+    overflow-wrap: anywhere;
   }
 
   .header-actions {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-items: end;
-    gap: 10px;
-    min-width: 0;
+    display: block;
   }
 
   .language-switcher {
-    order: -1;
-    align-self: flex-end;
+    position: absolute;
+    top: 18px;
+    right: 18px;
     font-size: 15px;
     line-height: 1;
-    gap: 7px;
+    gap: 6px;
     white-space: nowrap;
   }
 
@@ -1006,8 +1023,13 @@ textarea {
 
 @media (max-width: 380px) {
   .site-header {
-    padding: 12px 12px;
+    padding: 15px 14px 0;
     gap: 8px;
+  }
+
+  .brand {
+    top: 15px;
+    left: 14px;
   }
 
   .brand span {
@@ -1019,11 +1041,15 @@ textarea {
   }
 
   .nav-links {
-    gap: 7px 12px;
-    font-size: 11.5px;
+    left: 14px;
+    right: 14px;
+    padding: 12px 9px 13px;
+    font-size: 10.8px;
   }
 
   .language-switcher {
+    top: 15px;
+    right: 14px;
     font-size: 13.5px;
     gap: 5px;
   }
