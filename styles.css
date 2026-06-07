@@ -729,9 +729,11 @@ textarea {
   font-size: 14px;
 }
 
-.legal-links {
+.legal-links,
+.social-links {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 16px;
 }
 
@@ -741,6 +743,46 @@ textarea {
 
 .legal-links a:hover {
   border-color: currentColor;
+}
+
+.social-links {
+  gap: 10px;
+}
+
+.social-link {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(255, 250, 242, 0.24);
+  border-radius: 50%;
+  color: inherit;
+  opacity: 0.86;
+  transition:
+    border-color 180ms ease,
+    color 180ms ease,
+    opacity 180ms ease,
+    transform 180ms ease;
+}
+
+.social-link svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+}
+
+.social-link.facebook svg {
+  fill: currentColor;
+  stroke: none;
+}
+
+.social-link:hover {
+  border-color: currentColor;
+  color: var(--gold);
+  opacity: 1;
+  transform: translateY(-1px);
 }
 
 @keyframes heroTextIn {
