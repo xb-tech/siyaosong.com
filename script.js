@@ -33,6 +33,7 @@ const translations = {
     "concerts.ask": "Anfragen",
     "concerts.showMore": "Weitere Konzerte anzeigen",
     "concerts.showLess": "Weniger anzeigen",
+    "concerts.past": "Vergangen",
     "date.oneMonth": "Juni",
     "date.twoMonth": "Juli",
     "date.threeMonth": "Sept",
@@ -113,6 +114,7 @@ const translations = {
     "concerts.ask": "Inquire",
     "concerts.showMore": "Show more concerts",
     "concerts.showLess": "Show fewer",
+    "concerts.past": "Past",
     "date.oneMonth": "Jun",
     "date.twoMonth": "Jul",
     "date.threeMonth": "Sep",
@@ -191,6 +193,7 @@ const translations = {
     "concerts.ask": "咨询",
     "concerts.showMore": "显示更多音乐会",
     "concerts.showLess": "收起",
+    "concerts.past": "已结束",
     "date.oneMonth": "六月",
     "date.twoMonth": "七月",
     "date.threeMonth": "九月",
@@ -268,6 +271,7 @@ function applyLanguage(lang) {
   });
 
   localStorage.setItem("site-language", lang);
+  updateConcertPastStates();
   updateConcertToggleLabel();
 }
 
@@ -285,6 +289,37 @@ function updateConcertToggleLabel() {
   const isExpanded = concertList.classList.contains("is-expanded");
   concertToggle.textContent = isExpanded ? dictionary["concerts.showLess"] : dictionary["concerts.showMore"];
   concertToggle.setAttribute("aria-expanded", String(isExpanded));
+}
+
+function updateConcertPastStates() {
+  const dictionary = currentDictionary();
+  const now = new Date();
+
+  document.querySelectorAll(".concert-item[data-date]").forEach((item) => {
+    const concertDate = new Date(item.dataset.date);
+    if (Number.isNaN(concertDate.getTime())) return;
+
+    const isPast = concertDate.getTime() < now.getTime();
+    item.classList.toggle("is-past", isPast);
+
+    let status = item.querySelector(".concert-status");
+    if (isPast) {
+      if (!status) {
+        status = document.createElement("span");
+        status.className = "concert-status";
+        const info = item.querySelector(".concert-info");
+        const heading = info?.querySelector("h4");
+        if (info && heading) {
+          info.insertBefore(status, heading);
+        } else {
+          info?.prepend(status);
+        }
+      }
+      status.textContent = dictionary["concerts.past"] || "Vergangen";
+    } else if (status) {
+      status.remove();
+    }
+  });
 }
 
 document.querySelectorAll(".lang-button").forEach((button) => {
